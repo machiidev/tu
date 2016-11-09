@@ -5,6 +5,10 @@
 var myApp = new Framework7({
 	modalTitle: 'TeeUhr',
     material: true,
+	smartSelectOpenIn:'picker',
+	smartSelectBackOnSelect: 'true',
+	smartSelectSearchbar: 'true',
+	smartSelectPickerCloseText: 'Fertig',
 	materialPageLoadDelay: 200,
 	init: false,
 });
