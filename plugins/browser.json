@@ -1,0 +1,76 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-battery-status": {
+            "PACKAGE_NAME": "de.teemachen.teeuhr"
+        },
+        "cordova-plugin-camera": {
+            "PACKAGE_NAME": "de.teemachen.teeuhr"
+        },
+        "cordova-plugin-media-capture": {
+            "PACKAGE_NAME": "de.teemachen.teeuhr"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "de.teemachen.teeuhr"
+        },
+        "cordova-plugin-contacts": {
+            "PACKAGE_NAME": "de.teemachen.teeuhr"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "de.teemachen.teeuhr"
+        },
+        "cordova-plugin-device-motion": {
+            "PACKAGE_NAME": "de.teemachen.teeuhr"
+        },
+        "cordova-plugin-device-orientation": {
+            "PACKAGE_NAME": "de.teemachen.teeuhr"
+        },
+        "cordova-plugin-dialogs": {
+            "PACKAGE_NAME": "de.teemachen.teeuhr"
+        },
+        "cordova-plugin-file-transfer": {
+            "PACKAGE_NAME": "de.teemachen.teeuhr"
+        },
+        "cordova-plugin-geolocation": {
+            "PACKAGE_NAME": "de.teemachen.teeuhr"
+        },
+        "cordova-plugin-globalization": {
+            "PACKAGE_NAME": "de.teemachen.teeuhr"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "de.teemachen.teeuhr"
+        },
+        "cordova-plugin-media": {
+            "PACKAGE_NAME": "de.teemachen.teeuhr"
+        },
+        "cordova-plugin-network-information": {
+            "PACKAGE_NAME": "de.teemachen.teeuhr"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "de.teemachen.teeuhr"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "de.teemachen.teeuhr"
+        },
+        "cordova-plugin-vibration": {
+            "PACKAGE_NAME": "de.teemachen.teeuhr"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "de.teemachen.teeuhr"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "de.teemachen.teeuhr"
+        },
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "de.teemachen.teeuhr"
+        }
+    }
+}
