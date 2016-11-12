@@ -42,10 +42,12 @@ var now             = new Date().getTime(),
 
 alert(cordova.platformId); 
 cordova.plugins.notification.local.schedule({
-    text: "Delayed Notification",
+    title: "Tee ist fertig!",
+	text: "Ihr Grüntee war um " . _5_sec_from_now ." fertig!",
     at: _5_sec_from_now,
     led: "FF0000",
-    sound: null
+    sound: 'file://alarm.wav',
+	data: { Teesorte: 'Grüntee'}
 });
 if (cordova.platformID=='Android') {	
 alert("setze alarm");	
