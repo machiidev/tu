@@ -100,7 +100,7 @@ $$('#zeit').on('input', function (e) {
 
 $$('#bstart').on('click', function(e) {
 	
-	countdown( "countdown", $$('#zeit').prop('value'), 0 );
+	countdown( "countdown", $$('#zeit').prop('value'), 0, $$('#teesorte').prop('value') );
 	$$('#bstart').hide();
 	$$('#bstop').show();
 });
@@ -113,7 +113,7 @@ $$('#bstop').on('click', function(e) {
 	$$('#bstop').hide();
 });
 
-function countdown( elementName, minutes, seconds )
+function countdown( elementName, minutes, seconds, tee )
 {
     var element, endTime, hours, mins, msLeft, time;
 
@@ -143,12 +143,12 @@ function countdown( elementName, minutes, seconds )
 
 
 cordova.plugins.notification.local.schedule({
-    title: "Tee ist fertig!",
-	text: "Ihr Grüntee war um " + ende +" fertig!",
+    title: "Teeuhr-Benachrichtigung!",
+	text: "Ihr Tee ist fertig!",
     at: ende,
     led: "FF0000",
     sound: 'file://alarm.wav',
-	data: { Teesorte: 'Grüntee'}
+	data: { Teesorte: 'Tee'}
 });
 	
     element = document.getElementById( elementName );
