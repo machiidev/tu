@@ -28,7 +28,7 @@
     <plugin name="cordova-plugin-whitelist" source="npm" spec="~1.2.1" />
     <plugin name="de.appplant.cordova.plugin.local-notification" source="npm" />
 	<allow-navigation href="*" />
-	<allow-navigation src="*" />
+	<allow-navigation img="*" />
     <icon src="icon.png" />
     <platform name="android">
         <icon density="ldpi" src="www/res/icon/android/drawable-ldpi-icon.png" />
@@ -107,6 +107,7 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
+	    <allow-intent href="data:*" />
     <platform name="android">
         <allow-intent href="market:*" />
     </platform>

@@ -43,7 +43,7 @@ var now             = new Date().getTime(),
 alert(cordova.platformId); 
 cordova.plugins.notification.local.schedule({
     title: "Tee ist fertig!",
-	text: "Ihr Grüntee war um " . _5_sec_from_now ." fertig!",
+	text: "Ihr Grüntee war um " + _5_sec_from_now +" fertig!",
     at: _5_sec_from_now,
     led: "FF0000",
     sound: 'file://alarm.wav',
