@@ -31,6 +31,12 @@ teesorte['Kräutertee']=4;
 teesorte['Weißtee']=3;
 
 function onDeviceReady() {
+
+};
+
+
+$$('#timerstart').on('click', function(e) {
+	
 var now             = new Date().getTime(),
     _5_sec_from_now = new Date(now + 10*1000);
 
@@ -46,7 +52,9 @@ alert("setze alarm");
 
 
 };
-};
+
+});
+
 
 $$(document).on('pageInit', function (e) {
 //myApp.onPageInit ('index-3', function(e) {

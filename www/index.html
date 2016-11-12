@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval'"/>
     <title>TeeUhr</title>
     <!-- Path to Framework7 Library CSS-->
     <link rel="stylesheet" href="./css/framework7.ios.min.css">
@@ -46,7 +47,7 @@
                 <p>Für den optimalen Teegenuß ist bei der Zubereitung die Einhaltung der Ziehzeit wichtig. Die Teeuhr hilft dir die optimale Ziehzeit deines Tees zu bestimmen und einzuhalten.  </p>
                 <p> .</p>
                 <p>And of course, your favorite panels are still here: <a href="#" class="open-panel">left</a> and  <a href="#" data-panel="right" class="open-panel">right</a></p>
-                <p>Icons and their labels in tab bar below are just for example and don't related to their content.</p>
+                <p><a id="timerstart" href="#" class="button button-big button-fill button-raised button-round  color-green">Start timer!</a></p>
               </div>
             </div>
           </div>
