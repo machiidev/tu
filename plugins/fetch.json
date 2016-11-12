@@ -57,10 +57,11 @@
     },
     "cordova-plugin-device": {
         "source": {
-            "type": "registry",
-            "id": "cordova-plugin-device@~1.1.1"
+            "type": "git",
+            "url": "https://github.com/apache/cordova-plugin-device.git",
+            "subdir": "."
         },
-        "is_top_level": true,
+        "is_top_level": false,
         "variables": {}
     },
     "cordova-plugin-device-motion": {
@@ -159,12 +160,55 @@
         "is_top_level": true,
         "variables": {}
     },
+    "phonegap-background-master": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-vibration@~2.1.0"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
     "cordova-plugin-whitelist": {
         "source": {
             "type": "registry",
             "id": "cordova-plugin-whitelist@~1.2.1"
         },
         "is_top_level": true,
+        "variables": {}
+    },
+    "com.colibrisoftware.plugins.backgroundjs": {
+        "source": {
+            "type": "git",
+            "url": "https://github.com/jocull/phonegap-backgroundjs.git",
+            "subdir": "."
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "com-badrit-backgroundjs": {
+        "source": {
+            "type": "git",
+            "url": "https://github.com/hazemhagrass/phonegap-background.git",
+            "subdir": "."
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "de.appplant.cordova.plugin.local-notification": {
+        "source": {
+            "type": "git",
+            "url": "https://github.com/katzer/cordova-plugin-local-notifications",
+            "subdir": "."
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-app-event": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-app-event"
+        },
+        "is_top_level": false,
         "variables": {}
     }
 }

@@ -1,6 +1,4 @@
 
-
-
 // Initialize your app
 var myApp = new Framework7({
 	modalTitle: 'TeeUhr',
@@ -29,6 +27,20 @@ var teesorte = new Array();
 teesorte['Assam']=5;
 teesorte['Grüntee']=4;
 teesorte['Früchtetee']=9;
+teesorte['Kräutertee']=4;
+teesorte['Weißtee']=3;
+
+
+var now             = new Date().getTime(),
+    _5_sec_from_now = new Date(now + 5*1000);
+
+//cordova.plugins.notification.local.schedule({
+//    text: "Delayed Notification",
+ //   at: _5_sec_from_now,
+  //  led: "FF0000",
+  //  sound: null
+//});
+alert(cordova.platformId); 
 
 $$(document).on('pageInit', function (e) {
 //myApp.onPageInit ('index-3', function(e) {
